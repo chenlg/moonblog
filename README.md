@@ -1,6 +1,6 @@
 
 # moon-blog 
-  个人博客: http://chenlg.github.com/moonblog,邮箱是 lingang.chen@gmail.com
+  个人博客: http://chenlg.github.com/moonblog ,邮箱是 lingang.chen@gmail.com
   --------------------------- 基于[jekyll](http://github.com/mojombo/jekyll)
  
   一些问题未解决：
