@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>月夜 --博客</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="lingang.chen">
+ 
+ <!--    <link href="http://ddddddd/favicon.ico" rel="shortcut icon" type="image/x-icon">-->
+    <link href="/moonblog/stylesheets/all.css" rel="stylesheet" type="text/css">
+    <link href="/moonblog/stylesheets/master.css" rel="stylesheet" type="text/css">
+    
+    <script type="text/javascript" src="/moonblog/javascripts/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="/moonblog/javascripts/default.js"></script>
+  </head>
+  <body>
+    	<div id="header">
+      <div class="container_12">
+        <div class="grid_9" id="logo">
+         <!--
+          <a href="12321.html" title="Take me home!"><img src="/logo.png"></a> 
+          -->
+          <a href="/moonblog" title="home!"><span class='red'>No  Logo</span> </a>
+        </div>
+        <div class="grid_3" id="search">
+          <form action="http://www.google.com/cse" id="cse-search-box">
+            <div>
+              <input name="cx" type="hidden" value="003452776527504715988:fpri-ti1_v0">
+              <input name="ie" type="hidden" value="UTF-8">
+              <input id="q" name="q" placeholder="Search" size="28" type="text">
+            </div>
+          </form>
+          
+        </div>
+      </div>
+    </div>
+
+    <div id="container">
+      <div class="container_12" id="content">
+        <div class="grid_3" id="sidebar">
+      		    	
+    	<div class="box" id="RSSfeed">
+            <h3>RSS Feed</h3>
+            <p>本博客源码托管在 github 上，建议大家多使用RSS访问阅读（推荐使用 Google Reader）。</p> 
+        </div>
+        <div class="box list_only" id="recommend">
+            <h3>REC Read</h3> 
+            <ul> 
+                
+              	 
+              	 	<li><a href='/moonblog/categories/mood/2013/02/14/first-blog' title="view posts">我的第一个博客发布</a>
+			</li> 
+              	 
+	        
+            </ul>   
+        </div>
+    	<div class="box list_only" id="categories">
+            <h3>Categories</h3>
+            <ul>
+                 
+		    <li><a href='/moonblog/categories/?category=mood' title="view all
+		posts">mood  <span>(1)</span></a>
+		    </li> 
+		
+            </ul>
+        </div>
+          <div class="box list_only" id="archives">
+            <h3>Archives</h3>
+            <ul> 
+                
+		      
+		      <li><a href='/moonblog/archives/?archive=2013/02'>February 2013
+		      <!-- <span>(7)</span>--></a></li>
+		    
+		   
+            </ul>
+          </div>
+          <div class="box" id="about_me">
+            <h3>About Me</h3>
+            <img class="left" src="/moonblog/images/darkness/simpsons_me.png">
+            <p>Hello! I'm lingang.chen, this is my personal blog. I'm a developer with a passion for Java, C#, NodeJs and HTML/CSS.</p>
+            <p>I'm currently studying embedded, although the technology is not proficient, but like.</p>
+            <p>
+              <a href="https://github.com/chenlg" title="my code at Github!"><img src="/moonblog/images/darkness/github.png" alt="Github"></a>  
+            </p>
+          </div>
+          <div class="box" id="photo">
+            <h3>My Photo</h3>
+            <div class="flickr_photos">
+            <!-- 
+            <span class="flickr_image"><a href="#"><img src="21321.jpg" alt="231"></a></span>
+	    <span class="flickr_image"><a href="#"><img src="21321.jpg" alt="231"></a></span>
+	    <span class="flickr_image"><a href="#"><img src="21321.jpg" alt="231"></a></span>
+	    <span class="flickr_image"><a href="#"><img src="21321.jpg" alt="231"></a></span>
+	    <span class="flickr_image"><a href="#"><img src="21321.jpg" alt="231"></a></span>
+	    <span class="flickr_image"><a href="#"><img src="21321.jpg" alt="231"></a></span>
+	    -->
+            </div>
+          </div>
+          <!--
+          <div class="box" id="twitter">
+            <img src="/twitter_bird.png" class="left pad_right">
+            <h3>Twitter</h3>
+            <p class="intro">I was last seen saying:</p><div class="clear"></div> 
+                      <p class="tweet">
+                        “<span>hoolle lviinx wks,/span>”
+                      </p> 
+            <p><a href="/">view evidence</a></p>
+          </div>
+          -->
+
+        </div> 
+        <div class="grid_9" id="main">   
+             <script language="JavaScript" type="text/javascript"> 
+ 
+$(document).ready(function(){
+	var Request=new QueryString();
+	category=Request["category"] 
+	index_category_title = category.replace(/%20/g," ");
+	$("#index_category_title").html("Entries categorised as &#8220;"+index_category_title+"&#8221;");
+	category = category.replace(/%20/g,"_"); 
+	$("."+category).show(); 
+	
+});
+</script> 
+        <div  class="big_box"  id="category_box" >
+            <h1 id="index_category_title"></h1> 
+                
+            	 
+		    <div class="article  mood" style="display:none">
+		      <div class="grid_7 alpha">
+		        <h2 class="title"><a href="/moonblog/categories/mood/2013/02/14/first-blog">我的第一个博客发布</a></h2>
+		        <span class="full_date"> 14 February 2013</span>
+		      </div>
+		      <div class="grid_2 omega">
+		        <div class="short_date">
+		          <span class="month">February</span>
+		          <span class="day">14</span>
+		        </div>
+		      </div>
+		    </div> 
+		  
+	     
+        </div> 
+        
+  <!--
+      <div class="big_box"   id="category_box">
+            <h1>Entries categorised as &#8220;&#8221;</h1>
+             
+        </div> 
+        
+        -->
+   
+        </div>
+      </div>
+    </div>
+       <div class="container_12" id="footer">
+      <div class="grid_12" id="footer_info">Powered by <a href="https://github.com/mojombo/jekyll">jekyll</a>.   Copyright © 2013 - lingang.chen . </div>
+   </div>
+
+    
+    <script charset="utf-8" type="text/javascript" src="http://disqus.com/forums/27smiles/get_num_replies.js"></script>
+    <script charset="utf-8" type="text/javascript" src="http://disqus.com/forums/27smiles/get_num_replies.js?url5=http%3A%2F%2F27smiles.com%2F2010%2F04%2F24%2Fdeluge-in-chrome%2F%23disqus_thread&url19=http%3A%2F%2F27smiles.com%2F2010%2F04%2F07%2Fsecurely-backup-of-vps-with-duplicity-and-gpg%2F%23disqus_thread&url23=http%3A%2F%2F27smiles.com%2F2010%2F03%2F12%2Ftop-tips-to-buying-petrol%2F%23disqus_thread&"></script> 
+     
+</body>
+</html>
