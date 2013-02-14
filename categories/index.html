@@ -1,0 +1,58 @@
+---
+layout: default
+title: Posts categorised   
+---  
+ 
+<script language="JavaScript" type="text/javascript"> 
+ 
+$(document).ready(function(){
+	var Request=new QueryString();
+	category=Request["category"] 
+	index_category_title = category.replace(/%20/g," ");
+	$("#index_category_title").html("Entries categorised as &#8220;"+index_category_title+"&#8221;");
+	category = category.replace(/%20/g,"_"); 
+	$("."+category).show(); 
+	
+});
+</script> 
+        <div  class="big_box"  id="category_box" >
+            <h1 id="index_category_title"></h1> 
+            {% for post in site.posts%}    
+            	 {% for category in post.categories%}
+		    <div class="article  {{ category | replace:' ','_' }}" style="display:none">
+		      <div class="grid_7 alpha">
+		        <h2 class="title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+		        <span class="full_date"> {{ post.date | date: '%d %B %Y'  }}</span>
+		      </div>
+		      <div class="grid_2 omega">
+		        <div class="short_date">
+		          <span class="month">{{ post.date | date: '%B'  }}</span>
+		          <span class="day">{{ post.date | date: '%d' }}</span>
+		        </div>
+		      </div>
+		    </div> 
+		 {% endfor %} 
+	    {% endfor %} 
+        </div> 
+        
+  <!--
+      <div class="big_box"   id="category_box">
+            <h1>Entries categorised as &#8220;{{page.category}}&#8221;</h1>
+            {% for category in site.categories.[page.category] %} 
+		    <div class="article">
+		      <div class="grid_7 alpha">
+		        <h2 class="title"><a href="{{ site.baseurl }}{{ category.url }}">{{ category.title }}</a></h2>
+		        <span class="full_date"> {{ category.date | date: '%d %B %Y'  }}</span>
+		      </div>
+		      <div class="grid_2 omega">
+		        <div class="short_date">
+		          <span class="month">{{ category.date | date: '%B'  }}</span>
+		          <span class="day">{{ category.date | date: '%d' }}</span>
+		        </div>
+		      </div>
+		    </div>
+            
+	    {% endfor %} 
+        </div> 
+        
+        -->

@@ -1,0 +1,60 @@
+---
+layout: default
+title: home index 
+front_page: true
+---
+        {% for post in site.posts  limit:3 %}      
+	    <div class="box big_box">
+		    <div class="article">
+		      <div class="grid_7 alpha">
+		        <h2 class="title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+		      </div>
+		      <div class="grid_2 omega">
+		        <div class="short_date" title="{{ post.date | date: '%d %B %Y' }}">
+		          <span class="month">{{ post.date | date: '%b' }}</span>
+		          <span class="day">{{ post.date | date: '%d' }}</span>
+		        </div>
+		      </div>
+                      <div class="clear"></div>
+                      <div class="body">  
+              		{% if(post.extended)  %}
+			  	{% assign words = post.content | split: post.extended %} 
+              		 	{{ words.first }}
+			{% else %} 
+              		 	{{  post.content }}
+			{% endif %}
+		      <div class="clear"></div>
+		      </div>
+		      <div class="container_9 info">
+		        <a href="{{ site.baseurl }}{{ post.url }}/#disqus_thread">Comments</a>
+		       {% if(post.extended) %} 
+		        |
+		        <a href="{{ site.baseurl }}{{ post.url }}">Read full post »</a>
+		        {% endif %} 
+		        <div class="categories"> 
+		           {% for category in post.categories%} 
+			     <a href="{{ site.baseurl }}/categories/?category={{ category }}">{{category}}</a>
+			   {% endfor %} 
+		        </div>
+		      </div>
+		    </div>
+		  </div> 
+	    {% endfor %}  
+	       
+	  <div class="box big_box" id="older_articles">
+          {% for post in site.posts  limit:3 offset:3%}  
+            <div class="article">
+              <div class="grid_7 alpha">
+                <h2 class="title"><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></h2>
+                <span class="full_date">{{ post.date | date: '%d %B %Y' }}</span>
+              </div>
+              <div class="grid_2 omega">
+                <div class="short_date">
+                  <span class="month">{{ post.date | date: '%b' }}</span>
+                  <span class="day">{{ post.date | date: '%d' }}</span>
+                </div>
+              </div>
+            </div> 
+	  {% endfor %} 
+          </div>
+          

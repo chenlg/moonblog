@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>月夜 --博客</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="lingang.chen">
+ 
+ <!--    <link href="http://ddddddd/favicon.ico" rel="shortcut icon" type="image/x-icon">-->
+    <link href="/moonblog/stylesheets/all.css" rel="stylesheet" type="text/css">
+    <link href="/moonblog/stylesheets/master.css" rel="stylesheet" type="text/css">
+    
+    <script type="text/javascript" src="/moonblog/javascripts/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="/moonblog/javascripts/default.js"></script>
+  </head>
+  <body>
+    	{% include header.html %}
+    <div id="container">
+      <div class="container_12" id="content">
+        <div class="grid_3" id="sidebar">
+      		{% include left.html %}
+        </div> 
+        <div class="grid_9" id="main">   
+             {{ content }}   
+        </div>
+      </div>
+    </div>
+    {% include footer.html %}
+    
+    <script charset="utf-8" type="text/javascript" src="http://disqus.com/forums/27smiles/get_num_replies.js"></script>
+    <script charset="utf-8" type="text/javascript" src="http://disqus.com/forums/27smiles/get_num_replies.js?url5=http%3A%2F%2F27smiles.com%2F2010%2F04%2F24%2Fdeluge-in-chrome%2F%23disqus_thread&url19=http%3A%2F%2F27smiles.com%2F2010%2F04%2F07%2Fsecurely-backup-of-vps-with-duplicity-and-gpg%2F%23disqus_thread&url23=http%3A%2F%2F27smiles.com%2F2010%2F03%2F12%2Ftop-tips-to-buying-petrol%2F%23disqus_thread&"></script> 
+     
+</body>
+</html>

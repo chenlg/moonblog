@@ -1,0 +1,15 @@
+markdown: rdiscount 
+permalink: /categories/:categories/:year/:month/:day/:title
+#destination: ../../public/blog
+auto: true
+pygments: true
+
+exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
+
+author:
+ name : lingang.chen
+ email : lingang.chen@gmail.com 
+ web: http://chenlg.github.com/moonblog 
+
+baseurl: /moonblog
+safe: true 
