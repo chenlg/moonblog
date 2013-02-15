@@ -7,9 +7,9 @@ pygments: true
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 
 author:
- name : lingang.chen
- email : lingang.chen@gmail.com 
- web: http://chenlg.github.com/moonblog 
+ name: lingang.chen
+ email: lingang.chen@gmail.com  
 
 baseurl: /moonblog
+production_url: http://chenlg.github.com/moonblog 
 safe: true 

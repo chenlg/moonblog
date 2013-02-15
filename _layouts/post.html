@@ -3,9 +3,9 @@ layout: default
 comments: true
 ---
 <div  class="big_box" >
-<article>
+<article class="article">
   <header>
-    <h2>
+    <h2 class="title"> 
       <a href="/moonblog{{ page.url }}" rel="bookmark" title="Permanent link to ">{{ page.title }}</a>
     </h2>
     <h5>
@@ -19,9 +19,8 @@ comments: true
         <time>{{ page.date | date: '%B' }} {{ page.date | date: '%e' }}, {{ page.date | date: '%Y' }}</time> - 
         <author>{{ site.author.name }}</author>
     </h5>
-  </header>
-
-  <p /><br /><p />{{ content }}
+  </header> 
+  <p /><br /><p />{{ content | remove_first : '=== read more ==='}}
 
 <div class="hero-unit">
   <nav id="related">
