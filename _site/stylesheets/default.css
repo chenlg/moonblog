@@ -1,0 +1,74 @@
+ /* GLOBAL STYLES
+ -------------------------------------------------- */ 
+body {  
+      background: #0C0C0C;
+      color: #E6E1DC;
+      font-family: 'Lucida Grande', Helvetica, Arial, "Bitstream Vera Sans", sans-serif;
+      font-weight: normal;
+      font-size: 13px;
+    } 
+
+ /* HEADER STYLES
+ -------------------------------------------------- */
+.header {
+  background: transparent url(/moonlight/images/darkness/menu_background.png) repeat 0 0;
+  border-bottom: 1px solid #2E3546;
+  display: block;
+  height: 62px;
+  left: 0; 
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+} 
+.header .container{
+  margin-top: 20px;
+}
+
+ 
+   /* CUSTOMIZE THE CAROUSEL
+    -------------------------------------------------- */ 
+   
+     /* Carousel base class */
+    .carousel {
+       margin: 90px 0; 
+    }
+    
+    .carousel-control {
+      height: 80px;
+      margin-top: 0;
+      font-size: 120px;
+      text-shadow: 0 1px 1px rgba(0,0,0,.4);
+      background-color: transparent;
+      border: 0;
+      z-index: 10;
+    }
+
+    .carousel .item {
+      height: 500px;
+    }
+    .carousel img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      min-width: 100%;
+      height: 500px;
+    }
+ 
+   
+    
+   /* MARKETING CONTENT
+    -------------------------------------------------- */
+
+    /* Center align the text within the three columns below the carousel */
+    .marketing .span4 {
+      text-align: center;
+    }
+    .marketing h2 {
+      font-weight: normal;
+    }
+    .marketing .span4 p {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+
+

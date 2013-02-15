@@ -2,7 +2,7 @@
 layout: post
 title: 我的第一个博客发布 
 categories:
-  - mood
+  - 心情
 read: REC
 ##extended: === read more ===
 ---

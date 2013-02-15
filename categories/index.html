@@ -3,11 +3,12 @@ layout: default
 title: Posts categorised   
 ---  
  
-<script language="JavaScript" type="text/javascript"> 
+<script language="JavaScript" type="text/javascript" charset=GB2312"> 
  
 $(document).ready(function(){
 	var Request=new QueryString();
-	category=Request["category"] 
+	category=Request["category"]; 
+	category = decodeURI(category);
 	index_category_title = category.replace(/%20/g," ");
 	$("#index_category_title").html("Entries categorised as &#8220;"+index_category_title+"&#8221;");
 	category = category.replace(/%20/g,"_"); 
