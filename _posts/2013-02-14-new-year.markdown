@@ -6,7 +6,7 @@ categories:
 read: REC
 extended: === read more ===
 ---
-<div class="figure box right no_margin_top"><img src="/moonblog/images/img/3085180_115303076_2" width="440" height="360"></div>
+<div class="figure box right no_margin_top"><img src="/moonblog/images/img/3085180_115303076_2.jpg" width="440" height="360"></div>
   
 >一星期后，走完春节。
 
@@ -23,7 +23,7 @@ extended: === read more ===
  
 2012年 四个季度。得到多少，失去多少。 
 
-extended: === read more ===
+ === read more ===
 
 ##春
 为了那么一点羡慕。我浪费了那么多的时间去研究所谓的入侵。最后入侵了几个网站。却得不到那么一点快乐，只不是一些工具的使用而已。
