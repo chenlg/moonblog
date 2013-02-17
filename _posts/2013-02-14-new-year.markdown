@@ -25,9 +25,9 @@ read: REC
  
 2012年 四个季度。得到多少，失去多少。
 
-<div class="figure box right "><img src="/moonblog/images/img/2013-02-14-first-blog.jpg" width="240" height="160"></div>
+<div class="figure box  "><img src="/moonblog/images/img/2013-02-14-first-blog.jpg" width="240" height="160"></div>
 
-2012年春
+##2012年春
 为了那么一点羡慕。我浪费了那么多的时间去研究所谓的入侵。最后入侵了几个网站。却得不到那么一点快乐，只不是一些工具的使用而已。
 期间为了那么一点期望到最后的失望。很奇怪这种感觉。
 
@@ -38,9 +38,9 @@ read: REC
 
 
 
-<div class="figure box right "><img src="/moonblog/images/img/2013-02-14-first-blog.jpg" width="240" height="160"></div>
+<div class="figure box "><img src="/moonblog/images/img/2013-02-14-first-blog.jpg" width="240" height="160"></div>
 
-2012年夏
+##2012年夏
 为了春的兴趣。我研究了如何编写操作系统，继续了hack的梦想。了解了系统启动时开始的地址等等。后来发现要继续下去必需要学好汇编，又开始温故汇编。这中间又浪费那么多的时候（现有的系统与汇编书最后执行的结果相差很多，导致走了很多弯路）。
 中间有工作上的不快乐，有周末研究中的压抑。真的很累很苦，有时候自己就不停在想做这种东西为了什么。期间在朋友聊天中，很羡慕他们的待遇羡慕他们的休闲。人都有可耻的那么一面(包括自己)，或多或少有那么一点看着别人痛苦自己有一点窃喜。当然看着不如别人自己也有那么一点不甘。
 在不甘、窃喜、牢骚、失望中流逝到了秋
@@ -49,9 +49,9 @@ read: REC
 
 
 
-<div class="figure box right "><img src="/moonblog/images/img/2013-02-14-first-blog.jpg" width="240" height="160"></div>
+<div class="figure box "><img src="/moonblog/images/img/2013-02-14-first-blog.jpg" width="240" height="160"></div>
 
-2012年秋
+##2012年秋
 想着买房，可是自己手里就那么一点。看着身边的认识的不认识的都买了房。自己却还只能在幻想中。有时候就在想，他们的钱那里来的，哎。无耻的炒房者。
 中间却发现自己的身体已经差到，随时都可能倒下，跑了500米，开始腿抽筋，然后停止了春的事情。每天晚上开始做俯卧撑。从开始的10个到现在的50个。
 一个失败的秋。失去太多东西。却没有得到什么。留下的只是伤口。
@@ -60,13 +60,13 @@ read: REC
 
 
 
-<div class="figure box right "><img src="/moonblog/images/img/2013-02-14-first-blog.jpg" width="240" height="160"></div>
+<div class="figure box "><img src="/moonblog/images/img/2013-02-14-first-blog.jpg" width="240" height="160"></div>
 
 
 
 
 
-2012年冬
+##2012年冬
 每年都有很多人害怕过冬，因为这个冬天不好过。冬对于每个人都是那么的不同。有对明年的期待，有对明年的迷茫，有对明年的害怕。不过在差的冬，还是会过去的。不可能天天下雨，会有晴的时候
 时间可以慢慢的擦去历史的痕迹，再多的伤口、多重的伤口最后都会愈合。也给失败的人继续去记录未来。
 
