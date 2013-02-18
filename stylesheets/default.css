@@ -10,11 +10,11 @@ body {
 
  /* HEADER STYLES
  -------------------------------------------------- */
-.header {
-  background: url(/moonblog/images/darkness/herder-bg.jpg) no-repeat top center; 
+.header { 
+  background: url(/moonlight/images/darkness/herder-bg.jpg) no-repeat top center;
   border-bottom: 1px solid #2E3546;
   display: block;
-  height: 62px;
+  height: 100px;
   left: 0; 
   width: 100%;
   top: 0;
