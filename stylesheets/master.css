@@ -85,10 +85,10 @@ h3 {
  * Layout rules
  */
 #header {
-  background: transparent url(/moonblog/images/darkness/menu_background.png) repeat 0 0;
+  background: transparent url(/moonblog/images/darkness/herder-bg.jpg) repeat 0 0;
   border-bottom: 1px solid #2E3546;
   display: block;
-  height: 75px;
+  height: 105px;
   left: 0;
   position: fixed;
   width: 100%;

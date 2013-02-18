@@ -6,24 +6,7 @@ body {
       font-family: 'Lucida Grande', Helvetica, Arial, "Bitstream Vera Sans", sans-serif;
       font-weight: normal;
       font-size: 13px;
-    } 
-
- /* HEADER STYLES
- -------------------------------------------------- */
-.header { 
-  background: url(/moonlight/images/darkness/herder-bg.jpg) no-repeat top center;
-  border-bottom: 1px solid #2E3546;
-  display: block;
-  height: 100px;
-  left: 0; 
-  width: 100%;
-  top: 0;
-  z-index: 1000;
-} 
-.header .container{
-  margin-top: 20px;
-}
-
+    }  
  
    /* CUSTOMIZE THE CAROUSEL
     -------------------------------------------------- */ 
