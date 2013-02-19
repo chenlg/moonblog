@@ -1,6 +1,6 @@
- /* GLOBAL STYLES
- -------------------------------------------------- */ 
-body {  
+	/* GLOBAL STYLES
+	-------------------------------------------------- */ 
+	body {  
       background: #0C0C0C;
       color: #E6E1DC;
       font-family: 'Lucida Grande', Helvetica, Arial, "Bitstream Vera Sans", sans-serif;
@@ -9,7 +9,7 @@ body {
     } 
  
  
-   /* CUSTOMIZE THE CAROUSEL
+    /* CUSTOMIZE THE CAROUSEL
     -------------------------------------------------- */ 
    
      /* Carousel base class */
@@ -40,7 +40,7 @@ body {
  
    
     
-   /* MARKETING CONTENT
+    /* MARKETING CONTENT
     -------------------------------------------------- */
 
     /* Center align the text within the three columns below the carousel */
@@ -55,7 +55,7 @@ body {
       margin-right: 10px;
     }
    
-   /* weibo CONTENT
+    /* weibo CONTENT
     -------------------------------------------------- */
     .weibo{  
     	margin-left: 51px;
